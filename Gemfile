@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rack-cors', :require => 'rack/cors'
+gem 'foreman', '~> 0.82.0'
 gem 'awesome_print'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
