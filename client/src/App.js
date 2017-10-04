@@ -24,10 +24,11 @@ class App extends Component {
     });
     xhr.send()
   }
-  
+
   render() {
     return (
       <div className="App">
+        <h1>My Shows</h1>
         <section>
           <ShowListing shows={this.state.shows}/>
         </section>

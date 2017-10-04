@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 
-const Show = () => {
+const Show = (props) => {
   return (
-    <li>Title</li>
+    <section>
+    <ul>{props.show.title}</ul>
+    <p>{props.show.description}</p>
+
+    </section>
   )
 }
 
